@@ -18,3 +18,7 @@ output "private_subnet2_id" {
     value = aws_subnet.private_subnet2.id
 }
 
+
+output "subnet_id" {
+    value = var.private_subnet1_cidr_block
+}
